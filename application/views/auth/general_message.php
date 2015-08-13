@@ -1,0 +1,1 @@
+<section  class="about"><div class="container form-signin"><?php echo $message; ?></div></section>

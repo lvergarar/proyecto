@@ -1,0 +1,374 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    height: 58px;
+    margin-right: 0px;
+   // overflow-y: auto;
+     background: url(../img/semi-transparent-grey.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+//nav-bar
+#header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 99999;
+ 
+}
+.navbar {
+    border-radius:0px;
+    border-color: transparent;
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 1000px;
+    background-color: TRANSPARENT;
+}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   
+  background-color: TRANSPARENT;
+  // filter:alpha(opacity=50); opacity:0.5;
+
+   
+    
+  
+}
+
+
+.navbar-default .navbar-brand {
+  margin-left: 30px;
+  margin-right:50px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 900;
+  color:#FFFFFF;
+ 
+}
+
+
+.navbar-default:hover .navbar-brand:hover {
+ 
+color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding: 20px 10px;
+  font-size: 16px;
+  line-height: 17px;
+  color:#fff;
+ 
+ 
+}
+.navbar-default .navbar-nav > li > a:hover{
+  padding: 20px 10px;
+  font-size: 16px;
+  line-height: 17px;
+  color:#fff;
+ 
+}
+.navbar-default .navbar-nav > li > a > i {
+  display: inline-block;
+}
+
+.button_login{
+    float: right;
+}
+
+//end
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+
+ .page-footer:after ul:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0.01em !important;
+  line-height: 0.01em !important; }
+ 
+.page-footer ul {
+  display: inline-block; 
+}
+
+
+.page-footer {
+  clear: both;
+  overflow: hidden;
+  padding: 8px 0 7px;
+  border-top: 1px solid #dddddd;
+  background: #fff;
+  text-align: center; }
+  .page-footer nav, .page-footer nav ul, .page-footer .copyright {
+    margin: 0;
+    padding: 0; }
+  .page-footer nav, .page-footer .copyright, .page-footer li {
+    display: inline-block; }
+  .page-footer li {
+    margin: 0; }
+  .page-footer a {
+    display: block;
+    padding: 8px 6px; }
+  .page-footer .copyright {
+    padding: 8px 6px;
+    margin: 0 0 0 8px; }
+
+.page-footer-chromeless, .page-footer-dark,
+.page-home .page-footer {
+  background: none;
+  border: none; }
+
+
+
+///nav
+navbar-togglediv.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{height:13px}
+#services.bg-primary{
+	background-color: #C4CD1A;
+	background: #0081ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0081ff 0%, #005cff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0081ff), color-stop(100%,#005cff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0081ff 0%,#005cff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0081ff 0%,#005cff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0081ff 0%,#005cff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0081ff 0%,#005cff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0081ff', endColorstr='#005cff',GradientType=0 ); /* IE6-9 */
+}
+.text-success{
+	background:#feb600;
+}

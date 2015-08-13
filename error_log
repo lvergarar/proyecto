@@ -1,0 +1,4 @@
+[23-Sep-2014 23:34:54 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/ver0988/public_html/sport/application/views/templates/header.php on line 15
+[23-Sep-2014 23:35:06 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/ver0988/public_html/sport/application/views/templates/header.php on line 15
+[23-Sep-2014 23:35:26 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/ver0988/public_html/sport/application/views/templates/header.php on line 15
+[23-Sep-2014 23:35:54 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/ver0988/public_html/sport/application/views/templates/header.php on line 15

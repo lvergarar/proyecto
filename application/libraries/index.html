@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+<div id='content ' class='callout callout-info'>   
+    
+        <div class='box-header'><i class='fa fa-calendar'></i>
+            <h3 class='box-title'>" . $row['evento_descripcion'] . "</h3></div>
+        <div class='box-body'><dt>Descripción</dt>
+            <dd>" . $row['evento_descripcion'] . "</dd>
+            <dt>Día y horario</dt>
+            <dd>" . $row['fecha_evento'] . " a las " . $row['hora_evento'] . "</dd>            
+            <dt>Creado</dt>
+            <dd>" . $row['fecha_creacion'] . "</dd>
+        </div>
+
+</div>
+
+<div id='content'>
+      <div id='siteNotice'>
+      </div>
+      <h1 id='firstHeading' class='firstHeading'>" . $row['evento_descripcion'] . "</h1>
+      <div id='bodyContent'>
+       <div class='box-body'><dt>Descripción</dt>
+            <dd>" . $row['evento_descripcion'] . "</dd>
+            <dt>Día y horario</dt>
+            <dd>" . $row['fecha_evento'] . " a las " . $row['hora_evento'] . "</dd>            
+            <dt>Creado</dt>
+            <dd>" . $row['fecha_creacion'] . "</dd>
+        </div>
+      </div>
+      </div>;
